@@ -105,5 +105,21 @@ def main(filename, base_filename, out_filename):
     base_po_msgs = get_po_msgs(base_filename)
     process(work_po_msgs, base_po_msgs, open_file(out_filename, 'w'))
 
+def stats(filename):
+    po_msgs = get_po_msgs(filename)
+    num_empty = 0
+    for po_msg in po_msgs.array:
+        msgstr = po_msg.join_lines(po_msg.msgstr)
+        if len(msgstr) == 0:
+            num_empty += 1
+    num_total = len(po_msgs.array)
+    perc = num_empty * 100.0 / num_total
+    print(f'Num Strings: {num_total}')
+    print(f'Num Empty:   {num_empty} / {perc}%')
+
+
 if __name__ == "__main__":
-    main(sys.argv[1], sys.argv[2], sys.argv[3])
+    if sys.argv[1] == "info":
+        stats(sys.argv[2])
+    else:
+        main(sys.argv[1], sys.argv[2], sys.argv[3])
