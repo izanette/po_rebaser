@@ -6,17 +6,17 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-27 13:20+0800\n"
+"POT-Creation-Date: 2024-03-02 10:00+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Last-Translator: Ildefonso Zanette\n"
+"Language-Team: \n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 msgid "Supports Painting"
 msgstr "Pintura de Suportes"
@@ -25,7 +25,7 @@ msgid "Alt + Mouse wheel"
 msgstr "Alt + Scroll do mouse"
 
 msgid "Section view"
-msgstr ""
+msgstr "Vista da seção"
 
 msgid "Reset direction"
 msgstr "Restabelecer direção"
@@ -34,7 +34,7 @@ msgid "Ctrl + Mouse wheel"
 msgstr "Ctrl + Scroll do mouse"
 
 msgid "Pen size"
-msgstr ""
+msgstr "Tamanho da caneta"
 
 msgid "Left mouse button"
 msgstr "Botão esquerdo do mouse"
@@ -58,7 +58,7 @@ msgid "Erase all painting"
 msgstr "Apagar toda a pintura"
 
 msgid "Highlight overhang areas"
-msgstr ""
+msgstr "Marcar áreas de overhang"
 
 msgid "Gap fill"
 msgstr "Preenchimento de vão"
@@ -67,7 +67,7 @@ msgid "Perform"
 msgstr "Executar"
 
 msgid "Gap area"
-msgstr ""
+msgstr "Área de abertura"
 
 msgid "Tool type"
 msgstr "Tipo de ferramenta"
@@ -79,38 +79,38 @@ msgid "On overhangs only"
 msgstr "Apenas em overhangs"
 
 msgid "Auto support threshold angle: "
-msgstr ""
+msgstr "Ângulo limite de suporte automático"
 
 msgid "Circle"
-msgstr "Circulo"
+msgstr "Círculo"
 
 msgid "Sphere"
 msgstr "Esfera"
 
 msgid "Fill"
-msgstr ""
+msgstr "Preencher"
 
 msgid "Gap Fill"
-msgstr ""
+msgstr "Preenchimento de aberturas"
 
 #, possible-boost-format
 msgid "Allows painting only on facets selected by: \"%1%\""
 msgstr "Permite pintar apenas em faces selecionadas por: \"%1%\""
 
 msgid "Highlight faces according to overhang angle."
-msgstr ""
+msgstr "Marcar faces de acordo com o ângulo de overhang"
 
 msgid "No auto support"
-msgstr ""
+msgstr "Sem suporte automático"
 
 msgid "Support Generated"
-msgstr ""
+msgstr "Suporte Gerado"
 
 msgid "Gizmo-Place on Face"
 msgstr "Gizmo-Colocar em uma face"
 
 msgid "Lay on face"
-msgstr ""
+msgstr "Face na mesa"
 
 #, possible-boost-format
 msgid ""
@@ -119,22 +119,22 @@ msgid ""
 msgstr ""
 
 msgid "Color Painting"
-msgstr ""
+msgstr "Pintura de Cores"
 
 msgid "Pen shape"
-msgstr ""
+msgstr "Formato da caneta"
 
 msgid "Paint"
-msgstr ""
+msgstr "Tinta"
 
 msgid "Key 1~9"
-msgstr ""
+msgstr "Teclas 1~9"
 
 msgid "Choose filament"
-msgstr ""
+msgstr "Escolha o filamento"
 
 msgid "Edge detection"
-msgstr ""
+msgstr "Detecção de bordas"
 
 msgid "Triangles"
 msgstr "Triângulos"
@@ -152,35 +152,35 @@ msgid "Bucket fill"
 msgstr "Preenchimento de balde"
 
 msgid "Height range"
-msgstr ""
+msgstr "Faixa de altura"
 
 msgid "Alt + Shift + Enter"
-msgstr ""
+msgstr "Alt + Shift + Enter"
 
 msgid "Toggle Wireframe"
-msgstr ""
+msgstr "Alternar Estrutura de arame"
 
 msgid "Shortcut Key "
-msgstr ""
+msgstr "Tecla de atalho "
 
 msgid "Triangle"
 msgstr "Triângulo"
 
 msgid "Height Range"
-msgstr ""
+msgstr "Faixa de Altura"
 
 msgid "Vertical"
-msgstr ""
+msgstr "Vertical"
 
 msgid "Horizontal"
-msgstr ""
+msgstr "Horizontal"
 
 msgid "Remove painted color"
 msgstr "Remova a cor pintada"
 
 #, possible-boost-format
 msgid "Painted using: Filament %1%"
-msgstr ""
+msgstr "Colorido usando: Filamento %1%"
 
 msgid "Move"
 msgstr "Mover"
@@ -201,13 +201,13 @@ msgid "Apply"
 msgstr "Aplicar"
 
 msgid "Scale"
-msgstr ""
+msgstr "Redimensionar"
 
 msgid "Gizmo-Scale"
 msgstr "Gizmo-Escala"
 
 msgid "Error: Please close all toolbar menus first"
-msgstr ""
+msgstr "Erro: Por favor feche primeiro todos os menus da barra de ferramentas"
 
 msgid "in"
 msgstr "pol"
@@ -225,19 +225,19 @@ msgid "Rotation"
 msgstr "Rotação"
 
 msgid "Scale ratios"
-msgstr ""
+msgstr "Taxas de redimensionamento"
 
 msgid "Object Operations"
-msgstr ""
+msgstr "Operações de Objetos"
 
 msgid "Volume Operations"
-msgstr ""
+msgstr "Operações de Volume"
 
 msgid "Translate"
 msgstr "Tradução"
 
 msgid "Group Operations"
-msgstr ""
+msgstr "Operações de Grupo"
 
 msgid "Set Position"
 msgstr "Definir posição"
@@ -249,7 +249,7 @@ msgid "Set Scale"
 msgstr "Definir escala"
 
 msgid "Reset Position"
-msgstr ""
+msgstr "Restabelecer Posição"
 
 msgid "Reset Rotation"
 msgstr "Restabelecer Rotação"
@@ -268,55 +268,55 @@ msgid "%"
 msgstr "%"
 
 msgid "uniform scale"
-msgstr ""
+msgstr "redimensionamento uniforme"
 
 msgid "Planar"
-msgstr ""
+msgstr "Planar"
 
 msgid "Dovetail"
-msgstr ""
+msgstr "Cauda de Andorinha"
 
 msgid "Auto"
-msgstr ""
+msgstr "Auto"
 
 msgid "Manual"
-msgstr ""
+msgstr "Manual"
 
 msgid "Plug"
-msgstr ""
+msgstr "Plugue"
 
 msgid "Dowel"
-msgstr ""
+msgstr "Cavilha"
 
 msgid "Snap"
-msgstr ""
+msgstr "Dentado"
 
 msgid "Prism"
-msgstr ""
+msgstr "Prisma"
 
 msgid "Frustum"
-msgstr ""
+msgstr "Tronco"
 
 msgid "Square"
-msgstr ""
+msgstr "Quadrado"
 
 msgid "Hexagon"
-msgstr ""
+msgstr "Hexágono"
 
 msgid "Keep orientation"
-msgstr ""
+msgstr "Manter a orientação"
 
 msgid "Place on cut"
-msgstr ""
+msgstr "Colocar no corte"
 
 msgid "Flip upside down"
-msgstr ""
+msgstr "Girar de cabeça para baixo"
 
 msgid "Connectors"
-msgstr ""
+msgstr "Conectores"
 
 msgid "Type"
-msgstr ""
+msgstr "Tipo"
 
 msgid "Style"
 msgstr "Estilo"
@@ -328,7 +328,7 @@ msgstr "Forma"
 #. Size in emboss direction
 #. TRN - Input label. Be short as possible
 msgid "Depth"
-msgstr ""
+msgstr "Profundidade"
 
 msgid "Groove"
 msgstr "Ranhura"
@@ -337,148 +337,152 @@ msgid "Width"
 msgstr "Largura"
 
 msgid "Flap Angle"
-msgstr ""
+msgstr "Ângulo de Flap"
 
 msgid "Groove Angle"
-msgstr ""
+msgstr "Ângulo da Ranhura"
 
 msgid "Part"
 msgstr "Parte"
 
 msgid "Object"
-msgstr ""
+msgstr "Objeto"
 
 msgid ""
 "Click to flip the cut plane\n"
 "Drag to move the cut plane"
 msgstr ""
+"Clique para trocar o plano de corte\n"
+"Arraste para mover o plano de corte"
 
 msgid ""
 "Click to flip the cut plane\n"
 "Drag to move the cut plane\n"
 "Right-click a part to assign it to the other side"
 msgstr ""
-
+"Clique para trocar o plano de corte\n"
+"Arraste para mover o plano de corte\n"
+"Clique direito uma parte para levá-la para o outro lado"
 msgid "Move cut plane"
-msgstr ""
+msgstr "Mover o plano de corte"
 
 msgid "Mode"
 msgstr "Modo"
 
 msgid "Change cut mode"
-msgstr ""
+msgstr "Mudar o modo de corte"
 
 msgid "Tolerance"
-msgstr ""
+msgstr "Tolerância"
 
 msgid "Drag"
 msgstr "Arrastar"
 
 msgid "Draw cut line"
-msgstr ""
+msgstr "Desenhar a linha de corte"
 
 msgid "Left click"
 msgstr "Clique esquerdo"
 
 msgid "Add connector"
-msgstr ""
+msgstr "Adicionar conector"
 
 msgid "Right click"
 msgstr "Clique direito"
 
 msgid "Remove connector"
-msgstr ""
+msgstr "Remover conector"
 
 msgid "Move connector"
-msgstr ""
+msgstr "Mover conector"
 
 msgid "Add connector to selection"
-msgstr ""
+msgstr "Adicionar conector à seleção"
 
 msgid "Remove connector from selection"
-msgstr ""
+msgstr "Remover conector da seleção"
 
 msgid "Select all connectors"
-msgstr ""
+msgstr "Selecionar todos os conectores"
 
 msgid "Cut"
-msgstr ""
+msgstr "Cortar"
 
 msgid "Rotate cut plane"
-msgstr ""
+msgstr "Rotacionar o plano de corte"
 
 msgid "Remove connectors"
-msgstr ""
+msgstr "Remover conectores"
 
 msgid "Bulge"
-msgstr ""
+msgstr "Protuberância"
 
 msgid "Bulge proportion related to radius"
-msgstr ""
+msgstr "Proporção da protuberância em relação ao raio"
 
 msgid "Space"
-msgstr "Barra de Espaço"
+msgstr "Espaço"
 
 msgid "Space proportion related to radius"
-msgstr ""
+msgstr "Proporção do espaço em relação ao raio"
 
 msgid "Confirm connectors"
-msgstr ""
+msgstr "Confirmar conectores"
 
 msgid "Cancel"
 msgstr "Cancelar"
 
 msgid "Build Volume"
-msgstr ""
+msgstr "Volume de Trabalho"
 
 msgid "Flip cut plane"
-msgstr ""
+msgstr "Trocar o plano de corte"
 
 msgid "Groove change"
-msgstr ""
+msgstr "Mudar ranhura"
 
 msgid "Reset"
-msgstr "Redefinir"
+msgstr "Restabelecer"
 
 #. TRN: This is an entry in the Undo/Redo stack. The whole line will be 'Edited: (name of whatever was edited)'.
 msgid "Edited"
-msgstr ""
+msgstr "Editado"
 
 msgid "Cut position"
-msgstr ""
+msgstr "Posição de Corte"
 
 msgid "Reset cutting plane"
-msgstr ""
+msgstr "Restabelecer o plano de corte"
 
 msgid "Edit connectors"
-msgstr ""
+msgstr "Editar conectores"
 
 msgid "Add connectors"
-msgstr ""
+msgstr "Adicionar conectores"
 
 msgid "Reset cut"
-msgstr ""
+msgstr "Restabelecer o corte"
 
 msgid "Reset cutting plane and remove connectors"
-msgstr ""
+msgstr "Restabelecer o plano de corte e remover conectores"
 
 msgid "Upper part"
-msgstr ""
+msgstr "Parte superior"
 
 msgid "Lower part"
-msgstr ""
+msgstr "Parte inferior"
 
 msgid "Keep"
 msgstr "Manter"
 
 msgid "Flip"
-msgstr ""
+msgstr "Trocar"
 
 msgid "After cut"
-msgstr ""
+msgstr "Depois do corte"
 
 msgid "Cut to parts"
-msgstr ""
+msgstr "Cortar em partes"
 
 msgid "Perform cut"
 msgstr "Aplicar o corte"
@@ -487,55 +491,55 @@ msgid "Warning"
 msgstr "Aviso"
 
 msgid "Invalid connectors detected"
-msgstr ""
+msgstr "Conectores inválidos detectados"
 
 #, possible-c-format, possible-boost-format
 msgid "%1$d connector is out of cut contour"
 msgid_plural "%1$d connectors are out of cut contour"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1$d conector está fora do contorno de corte"
+msgstr[1] "%1$d conectores estão fora do contorno de corte"
 
 #, possible-c-format, possible-boost-format
 msgid "%1$d connector is out of object"
 msgid_plural "%1$d connectors are out of object"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1$d conector está fora do objeto"
+msgstr[1] "%1$d conectores estão fora do objeto"
 
 msgid "Some connectors are overlapped"
-msgstr ""
+msgstr "Alguns conectores estão se sobrepondo"
 
 msgid "Select at least one object to keep after cutting."
-msgstr ""
+msgstr "Selecione pelo menos um objeto para manter após o corte"
 
 msgid "Cut plane is placed out of object"
-msgstr ""
+msgstr "Plano de corte está posicionado fora do objeto"
 
 msgid "Cut plane with groove is invalid"
-msgstr ""
+msgstr "Plano de corte com ranhura é inválido"
 
 msgid "Connector"
-msgstr ""
+msgstr "Conector"
 
 msgid "Cut by Plane"
 msgstr "Cortado por plano"
 
 msgid "non-manifold edges be caused by cut tool, do you want to fix it now?"
-msgstr ""
+msgstr "Arestas non-manifold geradas pela ferramenta de corte, você quer consertá-las agora?"
 
 msgid "Repairing model object"
-msgstr ""
+msgstr "Consertando o modelo do objeto"
 
 msgid "Cut by line"
-msgstr ""
+msgstr "Cortar por linha"
 
 msgid "Delete connector"
-msgstr ""
+msgstr "Apagar conector"
 
 msgid "Mesh name"
 msgstr "Nome da malha"
 
 msgid "Detail level"
-msgstr ""
+msgstr "Nível de detalhe"
 
 msgid "Decimate ratio"
 msgstr "Proporção de redução"
@@ -584,7 +588,7 @@ msgstr "Mostrar estrutura de arame"
 
 #, possible-boost-format
 msgid "%1%"
-msgstr ""
+msgstr "%1%"
 
 msgid "Can't apply when proccess preview."
 msgstr "Não pode ser aplicado durante a visualização do processo."
@@ -593,10 +597,10 @@ msgid "Operation already cancelling. Please wait few seconds."
 msgstr "Operação já cancelada. Por favor, aguarde alguns segundos."
 
 msgid "Face recognition"
-msgstr ""
+msgstr "Reconhecimento de face"
 
 msgid "Perform Recognition"
-msgstr ""
+msgstr "Efetuar reconhecimento"
 
 msgid "Brush size"
 msgstr "Tamanho do pincel"
@@ -617,13 +621,13 @@ msgid "Remove selection"
 msgstr "Remover seleção"
 
 msgid "Entering Seam painting"
-msgstr ""
+msgstr "Entrar na pintura de costura"
 
 msgid "Leaving Seam painting"
-msgstr ""
+msgstr "Deixar a pintura de costura"
 
 msgid "Paint-on seam editing"
-msgstr ""
+msgstr "Editar costura com pintura"
 
 #. TRN - Input label. Be short as possible
 #. Select look of letter shape
@@ -631,75 +635,77 @@ msgid "Font"
 msgstr "Fonte"
 
 msgid "Thickness"
-msgstr ""
+msgstr "Espessura"
 
 msgid "Text Gap"
-msgstr ""
+msgstr "Espaço do Texto"
 
 msgid "Angle"
-msgstr ""
+msgstr "Ângulo"
 
 msgid ""
 "Embeded\n"
 "depth"
 msgstr ""
+"Profundidade\n"
+"Gravação"
 
 msgid "Input text"
-msgstr ""
+msgstr "Texto de entrada"
 
 msgid "Surface"
-msgstr ""
+msgstr "Superfície"
 
 msgid "Horizontal text"
-msgstr ""
+msgstr "Texto Horizontal"
 
 msgid "Shift + Mouse move up or dowm"
-msgstr ""
+msgstr "Shift + Mouse para cima / baixo"
 
 msgid "Rotate text"
-msgstr ""
+msgstr "Rotacionar o texto"
 
 msgid "Text shape"
-msgstr ""
+msgstr "Forma do texto"
 
 msgid "Set Mirror"
 msgstr "Definir espelhamento"
 
 msgid "Embossed text"
-msgstr ""
+msgstr "Texto em relevo"
 
 msgid "Enter emboss gizmo"
-msgstr ""
+msgstr "Entrar no gizmo de relevo"
 
 msgid "Leave emboss gizmo"
-msgstr ""
+msgstr "Sair do gizmo de relevo"
 
 msgid "Embossing actions"
-msgstr ""
+msgstr "Ações de relevo"
 
 msgid "Emboss"
-msgstr ""
+msgstr "Relevo"
 
 msgid "Text-Rotate"
-msgstr ""
+msgstr "Rotacionar-Texto"
 
 msgid "NORMAL"
-msgstr ""
+msgstr "NORMAL"
 
 msgid "SMALL"
-msgstr ""
+msgstr "PEQUENO"
 
 msgid "ITALIC"
-msgstr ""
+msgstr "ITÁLICO"
 
 msgid "SWISS"
-msgstr ""
+msgstr "SUÍÇO"
 
 msgid "MODERN"
-msgstr ""
+msgstr "MODERNO"
 
 msgid "First font"
-msgstr ""
+msgstr "Primeira fonte"
 
 msgid "Default font"
 msgstr "Fonte padrão"
@@ -711,43 +717,45 @@ msgid ""
 "The text cannot be written using the selected font. Please try choosing a "
 "different font."
 msgstr ""
+"O texto não pode ser gravado usando a fonte selecionada. Por favor, escolha "
+"uma fonte diferente."
 
 msgid "Embossed text cannot contain only white spaces."
-msgstr ""
+msgstr "Texto em relevo não pode conter somente espaços."
 
 msgid "Text contains character glyph (represented by '?') unknown by font."
-msgstr ""
+msgstr "Texto contém um caractér glyph (representado por '?') desconhecido pela fonte."
 
 msgid "Text input doesn't show font skew."
-msgstr ""
+msgstr "Entrada de texto não mostra a inclinação da fonte."
 
 msgid "Text input doesn't show font boldness."
-msgstr ""
+msgstr "Entrada de texto não mostra o peso da fonte."
 
 msgid "Text input doesn't show gap between lines."
-msgstr ""
+msgstr "Entrada de texto não mostra distância entre linhas."
 
 msgid "Too tall, diminished font height inside text input."
-msgstr ""
+msgstr "Muito alto, altura da fonte diminuida dentro da entrada de texto."
 
 msgid "Too small, enlarged font height inside text input."
-msgstr ""
+msgstr "Muito pequena, altura da fonte aumentada dentro da entrada de texto."
 
 msgid "Text doesn't show current horizontal alignment."
-msgstr ""
+msgstr "Texto não mostra o alinhamento horizontal atual."
 
 msgid "Revert font changes."
-msgstr ""
+msgstr "Reverter mudanças na fonte."
 
 #, possible-boost-format
 msgid "Font \"%1%\" can't be selected."
-msgstr ""
+msgstr "Fonte \"%1%\" não pode ser selecionada."
 
 msgid "Operation"
-msgstr ""
+msgstr "Operação"
 
 msgid "Join"
-msgstr ""
+msgstr "Juntar"
 
 msgid "Click to change text into object part."
 msgstr ""
