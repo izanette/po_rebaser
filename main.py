@@ -27,6 +27,7 @@ def get_po_msgs(filename):
     lines = get_lines(filename)
 
     for line in lines:
+        pass
 
 
 def main(filename, base_filename):
