@@ -115,7 +115,8 @@ def stats(filename):
     num_total = len(po_msgs.array)
     perc = num_empty * 100.0 / num_total
     print(f'Num Strings: {num_total}')
-    print(f'Num Empty:   {num_empty} / {perc}%')
+    print(f'Num Done:    {num_total-num_empty} / {100-perc:.2f}%')
+    print(f'Num Empty:   {num_empty} / {perc:.2f}%')
 
 
 if __name__ == "__main__":
