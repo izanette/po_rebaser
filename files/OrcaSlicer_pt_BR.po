@@ -765,96 +765,96 @@ msgstr "Não é possível alterar um tipo da última parte sólida do objeto."
 
 msgctxt "EmbossOperation"
 msgid "Cut"
-msgstr ""
+msgstr "Cortar"
 
 msgid "Click to change part type into negative volume."
-msgstr ""
+msgstr "Clique para mudar o tipo de peça para volume negativo"
 
 msgid "Modifier"
 msgstr "Modificador"
 
 msgid "Click to change part type into modifier."
-msgstr ""
+msgstr "Clique para mudar o tipo de peça em um modificador."
 
 msgid "Change Text Type"
-msgstr ""
+msgstr "Mudar o Tipo de Texto"
 
 #, possible-boost-format
 msgid "Rename style(%1%) for embossing text"
-msgstr ""
+msgstr "Renomear estilo(%1%) para texto em relevo"
 
 msgid "Name can't be empty."
-msgstr ""
+msgstr "Nome não pode estar vazio."
 
 msgid "Name has to be unique."
-msgstr ""
+msgstr "Nome precisa ser único"
 
 msgid "OK"
 msgstr "OK"
 
 msgid "Rename style"
-msgstr ""
+msgstr "Renomear estilo"
 
 msgid "Rename current style."
-msgstr ""
+msgstr "Renomear estilo atual."
 
 msgid "Can't rename temporary style."
-msgstr ""
+msgstr "Não é possível renomear estilo temporário."
 
 msgid "First Add style to list."
-msgstr ""
+msgstr "Adicione primeiro um estilo à lista."
 
 #, possible-boost-format
 msgid "Save %1% style"
-msgstr ""
+msgstr "Salvar estilo %1%"
 
 msgid "No changes to save."
-msgstr ""
+msgstr "Nenhuma mudança para salvar."
 
 msgid "New name of style"
-msgstr ""
+msgstr "Novo nome do estilo"
 
 msgid "Save as new style"
-msgstr ""
+msgstr "Salvar como novo estilo"
 
 msgid "Only valid font can be added to style."
-msgstr ""
+msgstr "Somente uma fonte válida pode ser adicionada ao estilo."
 
 msgid "Add style to my list."
-msgstr ""
+msgstr "Adicionar estilo à minha lista."
 
 msgid "Save as new style."
-msgstr ""
+msgstr "Salvar como novo estilo."
 
 msgid "Remove style"
-msgstr ""
+msgstr "Remover estilo"
 
 msgid "Can't remove the last existing style."
-msgstr ""
+msgstr "Não é possível remover o último estilo existente."
 
 #, possible-boost-format
 msgid "Are you sure you want to permanently remove the \"%1%\" style?"
-msgstr ""
+msgstr "Tem certeza que quer remover permanentemente o estilo \"%1%\" ?"
 
 #, possible-boost-format
 msgid "Delete \"%1%\" style."
-msgstr ""
+msgstr "Apagar estilo \"%1%\""
 
 #, possible-boost-format
 msgid "Can't delete \"%1%\". It is last style."
-msgstr ""
+msgstr "Não é possível apagar \"%1%\". É o último estilo."
 
 #, possible-boost-format
 msgid "Can't delete temporary style \"%1%\"."
-msgstr ""
+msgstr "Não é possílvel apagar estilo temporário \"%1%\"."
 
 #, possible-boost-format
 msgid "Modified style \"%1%\""
-msgstr ""
+msgstr "Estilo modificado \"%1%\""
 
 #, possible-boost-format
 msgid "Current style is \"%1%\""
-msgstr ""
+msgstr "Estilo atual é \"%1%\""
 
 #, possible-boost-format
 msgid ""
@@ -862,9 +862,12 @@ msgid ""
 "\n"
 "Would you like to continue anyway?"
 msgstr ""
+"Mudar o estilo para \"%1%\" irá descartar as modifições do estilo atual.\n"
+"\n"
+"Gostaria de continuar mesmo assim?"
 
 msgid "Not valid style."
-msgstr ""
+msgstr "Não é um estilo válido."
 
 #, possible-boost-format
 msgid "Style \"%1%\" can't be used and will be removed from a list."
