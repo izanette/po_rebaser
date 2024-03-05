@@ -871,42 +871,44 @@ msgstr "Não é um estilo válido."
 
 #, possible-boost-format
 msgid "Style \"%1%\" can't be used and will be removed from a list."
-msgstr ""
+msgstr "Estilo \"%1%\" não pode ser utilizado e será removido da lista."
 
 msgid "Unset italic"
-msgstr ""
+msgstr "Remover itálico"
 
 msgid "Set italic"
-msgstr ""
+msgstr "Usar itálico"
 
 msgid "Unset bold"
-msgstr ""
+msgstr "Remover negrito"
 
 msgid "Set bold"
-msgstr ""
+msgstr "Usar negrito"
 
 msgid "Revert text size."
-msgstr ""
+msgstr "Reverter tamanho do texto"
 
 msgid "Revert embossed depth."
-msgstr ""
+msgstr "Reverter profundidade de gravação"
 
 msgid ""
 "Advanced options cannot be changed for the selected font.\n"
 "Select another font."
 msgstr ""
+"Opções avançadas não podem ser alteradas para a fonte selecionada.\n"
+"Selecione outra fonte."
 
 msgid "Revert using of model surface."
-msgstr ""
+msgstr "Reverter o uso do modelo de superfície."
 
 msgid "Revert Transformation per glyph."
-msgstr ""
+msgstr "Reverter a Transformação pelo glyph."
 
 msgid "Set global orientation for whole text."
-msgstr ""
+msgstr "Usar orientação global para todo o texto."
 
 msgid "Set position and orientation per glyph."
-msgstr ""
+msgstr "Usar posição e orientação por glyph"
 
 msgctxt "Alignment"
 msgid "Left"
@@ -914,7 +916,7 @@ msgstr "Esquerda"
 
 msgctxt "Alignment"
 msgid "Center"
-msgstr ""
+msgstr "Central"
 
 msgctxt "Alignment"
 msgid "Right"
@@ -926,36 +928,36 @@ msgstr "Topo"
 
 msgctxt "Alignment"
 msgid "Middle"
-msgstr ""
+msgstr "Meio"
 
 msgctxt "Alignment"
 msgid "Bottom"
 msgstr "Base"
 
 msgid "Revert alignment."
-msgstr ""
+msgstr "Reverter alinhamento"
 
 #. TRN EmbossGizmo: font units
 msgid "points"
-msgstr ""
+msgstr "pontos"
 
 msgid "Revert gap between characters"
-msgstr ""
+msgstr "Reverter distância entre letras"
 
 msgid "Distance between characters"
-msgstr ""
+msgstr "Distância entre letras"
 
 msgid "Revert gap between lines"
-msgstr ""
+msgstr "Reverter distância entre linhas"
 
 msgid "Distance between lines"
-msgstr ""
+msgstr "Distância entre linhas"
 
 msgid "Undo boldness"
-msgstr ""
+msgstr "Desfazer negrito"
 
 msgid "Tiny / Wide glyphs"
-msgstr ""
+msgstr "Glyphs pequenos / largos"
 
 msgid "Undo letter's skew"
 msgstr ""
