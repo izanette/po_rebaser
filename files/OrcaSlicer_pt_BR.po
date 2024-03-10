@@ -960,52 +960,55 @@ msgid "Tiny / Wide glyphs"
 msgstr "Glyphs pequenos / largos"
 
 msgid "Undo letter's skew"
-msgstr ""
+msgstr "Desfazer inclinação da letra"
 
 msgid "Italic strength ratio"
-msgstr ""
+msgstr "razão da força do itálico"
 
 msgid "Undo translation"
-msgstr ""
+msgstr "Desfazer movimento"
 
 msgid "Distance of the center of the text to the model surface."
-msgstr ""
+msgstr "Distância do centro do texto à superfície do modelo."
 
 msgid "Undo rotation"
-msgstr ""
+msgstr "Desfazer rotação"
 
 msgid "Rotate text Clock-wise."
-msgstr ""
+msgstr "Rotacionar texto no sentido horário."
 
 msgid "Unlock the text's rotation when moving text along the object's surface."
-msgstr ""
+msgstr "Destravar a rotação do texto quando movê-lo na superfície do objeto."
 
 msgid "Lock the text's rotation when moving text along the object's surface."
-msgstr ""
+msgstr "Travar a rotação do texto quando movê-lo na superfície do objeto."
 
 msgid "Select from True Type Collection."
-msgstr ""
+msgstr "Selecionar da coleção True Type"
 
 msgid "Set text to face camera"
-msgstr ""
+msgstr "Posicionar o texto de frente para a câmera"
 
 msgid "Orient the text towards the camera."
-msgstr ""
+msgstr "Orienta o texto em direção à câmera."
 
 #, possible-boost-format
 msgid ""
 "Can't load exactly same font(\"%1%\"). Aplication selected a similar "
 "one(\"%2%\"). You have to specify font for enable edit text."
 msgstr ""
+"Não é possível carregar exatamente a mesma fonte(\"%1%\"). Foi selecionada"
+"uma fonte similar(\"%2%\"). Você precisa especificar uma fonte para habilitar"
+"a edição de texto."
 
 msgid "No symbol"
-msgstr ""
+msgstr "Sem símbolos"
 
 msgid "Loading"
 msgstr "Carregando"
 
 msgid "In queue"
-msgstr ""
+msgstr "Na fila"
 
 #. TRN - Input label. Be short as possible
 #. Height of one text line - Font Ascent
@@ -1016,7 +1019,7 @@ msgstr "Altura"
 #. Copy surface of model on surface of the embossed text
 #. TRN - Input label. Be short as possible
 msgid "Use surface"
-msgstr ""
+msgstr "Usar superfície"
 
 #. TRN - Input label. Be short as possible
 #. Option to change projection on curved surface
