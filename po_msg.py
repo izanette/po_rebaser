@@ -4,6 +4,7 @@ class PoMsg:
         self.msgid = msgid
         self.msgstr = msgstr
         self.prevcontext = prevcontext
+
     def join_lines(self, lines):
         result = ""
         for idx, msg in enumerate(lines):
@@ -13,10 +14,20 @@ class PoMsg:
             if idx < len(lines)-1:
                 result += ' '
 
+        return result #.strip()
+
+    def char_only(self, msg):
+        result = ""
+        for i in range(len(msg)):
+            c = msg[i]
+            if ('0' <= c <= '9') or ('a' <= c <= 'z') or ('A' <= c <= 'Z'):
+                result += c.lower()
+
         return result
 
     def get_key(self):
-        return self.join_lines(self.msgid)
+        #return self.join_lines(self.msgid)
+        return self.char_only(self.join_lines(self.msgid))
 
     def __str__(self):
         key = self.get_key()
