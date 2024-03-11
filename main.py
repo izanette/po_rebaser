@@ -14,6 +14,8 @@ def print_po_msg(po_msg, out_file):
         out_file.write(line+'\n')
 
 def process(work_po_msgs, base_po_msgs, out_file):
+    msg_not_found = []
+    good = 0
     #for po_msg in work_po_msgs.array:
     #    print(po_msg)
     for po_msg in base_po_msgs.array:
@@ -22,6 +24,19 @@ def process(work_po_msgs, base_po_msgs, out_file):
         if base_key in work_po_msgs.dict:
             work_po_msg = work_po_msgs.dict[base_key]
             print_po_msg(work_po_msg, out_file)
+            #print(base_key)
+            if len(work_po_msg.join_lines(work_po_msg.msgstr)) > 0:
+                good += 1
+        else:
+            msg_not_found.append(po_msg)
+            print(base_key)
+
+    print(f'Num Work Msgs:    {len(work_po_msgs.array)}')
+    print(f'Num Base Msgs:    {len(base_po_msgs.array)}')
+    print(f'Num Match Msgs:   {len(base_po_msgs.array) - len(msg_not_found)}')
+    print(f'Num GMatch Msgs:  {good}')
+    print(f'Num Unmatch Msgs: {len(msg_not_found)}')
+
 
 def open_file(filename, mode='r'):
     try:
