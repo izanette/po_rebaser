@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 msgid "Supports Painting"
-msgstr "Pintura de Suportes"
+msgstr "Pintar Suportes"
 
 msgid "Alt + Mouse wheel"
 msgstr "Alt + Scroll do mouse"
@@ -668,6 +668,14 @@ msgstr "Rotacionar o texto"
 msgid "Text shape"
 msgstr "Forma do texto"
 
+#. TRN - Title in Undo/Redo stack after rotate with text around emboss axe
+msgid "Text rotate"
+msgstr "Rotacionar texto"
+
+#. TRN - Title in Undo/Redo stack after move with text along emboss axe - From surface
+msgid "Text move"
+msgstr "Mover texto"
+
 msgid "Set Mirror"
 msgstr "Definir espelhamento"
 
@@ -724,7 +732,7 @@ msgid "Embossed text cannot contain only white spaces."
 msgstr "Texto em relevo não pode conter somente espaços."
 
 msgid "Text contains character glyph (represented by '?') unknown by font."
-msgstr "Texto contém um caractér glyph (representado por '?') desconhecido pela fonte."
+msgstr "Texto contém um caractér glifo (representado por '?') desconhecido pela fonte."
 
 msgid "Text input doesn't show font skew."
 msgstr "Entrada de texto não mostra a inclinação da fonte."
@@ -902,13 +910,13 @@ msgid "Revert using of model surface."
 msgstr "Reverter o uso do modelo de superfície."
 
 msgid "Revert Transformation per glyph."
-msgstr "Reverter a Transformação pelo glyph."
+msgstr "Reverter a Transformação pelo glifo."
 
 msgid "Set global orientation for whole text."
 msgstr "Usar orientação global para todo o texto."
 
 msgid "Set position and orientation per glyph."
-msgstr "Usar posição e orientação por glyph"
+msgstr "Usar posição e orientação por glifo"
 
 msgctxt "Alignment"
 msgid "Left"
@@ -957,7 +965,7 @@ msgid "Undo boldness"
 msgstr "Desfazer negrito"
 
 msgid "Tiny / Wide glyphs"
-msgstr "Glyphs pequenos / largos"
+msgstr "Glifos pequenos / largos"
 
 msgid "Undo letter's skew"
 msgstr "Desfazer inclinação da letra"
@@ -1025,7 +1033,7 @@ msgstr "Usar superfície"
 #. Option to change projection on curved surface
 #. for each character(glyph) in text separately
 msgid "Per glyph"
-msgstr ""
+msgstr "Por glifo"
 
 #. TRN - Input label. Be short as possible
 #. Align Top|Middle|Bottom and Left|Center|Right
@@ -1034,20 +1042,20 @@ msgstr "Alinhamento"
 
 #. TRN - Input label. Be short as possible
 msgid "Char gap"
-msgstr ""
+msgstr "distância entre letras"
 
 #. TRN - Input label. Be short as possible
 msgid "Line gap"
-msgstr ""
+msgstr "distância entre linhas"
 
 #. TRN - Input label. Be short as possible
 msgid "Boldness"
-msgstr ""
+msgstr "Negrito"
 
 #. TRN - Input label. Be short as possible
 #. Like Font italic
 msgid "Skew ratio"
-msgstr ""
+msgstr "Razão de inclinação"
 
 #. TRN - Input label. Be short as possible
 #. Distance from model surface to be able
@@ -1055,162 +1063,168 @@ msgstr ""
 #. move text as modifier fully out of not flat surface
 #. TRN - Input label. Be short as possible
 msgid "From surface"
-msgstr ""
+msgstr "Da superfície"
 
 #. TRN - Input label. Be short as possible
 #. Keep vector from bottom to top of text aligned with printer Y axis
 msgid "Keep up"
-msgstr ""
+msgstr "Manter para cima"
 
 #. TRN - Input label. Be short as possible.
 #. Some Font file contain multiple fonts inside and
 #. this is numerical selector of font inside font collections
 msgid "Collection"
-msgstr ""
+msgstr "Coleção"
 
 msgid "Enter SVG gizmo"
-msgstr ""
+msgstr "Entrar ferramenta SVG"
 
 msgid "Leave SVG gizmo"
-msgstr ""
+msgstr "Sair da ferramenta SVG"
 
 msgid "SVG actions"
-msgstr ""
+msgstr "Ações SVG"
 
 msgid "SVG"
 msgstr "SVG"
 
 #. TRN This is an item label in the undo-redo stack.
 msgid "SVG-Rotate"
-msgstr ""
+msgstr "SVG-Rotação"
 
 #, possible-boost-format
 msgid "Opacity (%1%)"
-msgstr ""
+msgstr "Opacidade (%1%)"
 
 #, possible-boost-format
 msgid "Color gradient (%1%)"
-msgstr ""
+msgstr "Gradiente de Cor (%1%)"
 
 msgid "Undefined fill type"
-msgstr ""
+msgstr "Tipo de preenchimento indefinido"
 
 msgid "Linear gradient"
-msgstr ""
+msgstr "Gradiente linear"
 
 msgid "Radial gradient"
-msgstr ""
+msgstr "Gradiente radial"
 
 msgid "Open filled path"
-msgstr ""
+msgstr "Abrir caminho preenchido"
 
 msgid "Undefined stroke type"
-msgstr ""
+msgstr "Tipo de risco indefinido"
 
 msgid "Path can't be healed from selfintersection and multiple points."
 msgstr ""
+"O caminho não pode ser consertado da auto intersecção e múltiplos pontos."
 
 msgid ""
 "Final shape constains selfintersection or multiple points with same "
 "coordinate."
 msgstr ""
+"A forma final contém auto intersecção ou múltiplos pontos com a mesma"
+"coordenada."
 
 #, possible-boost-format
 msgid "Shape is marked as invisible (%1%)."
-msgstr ""
+msgstr "A forma está marcada como invisível (%1%)."
 
 #. TRN: The first placeholder is shape identifier, the second one is text describing the problem.
 #, possible-boost-format
 msgid "Fill of shape (%1%) contains unsupported: %2%."
-msgstr ""
+msgstr "Preenchimento da forma (%1%) contém não suportado: %2%."
 
 #, possible-boost-format
 msgid "Stroke of shape (%1%) is too thin (minimal width is %2% mm)."
 msgstr ""
+"O traçado da forma (%1%) é muito fino (largura mínima é %2% mm)."
 
 #, possible-boost-format
 msgid "Stroke of shape (%1%) contains unsupported: %2%."
-msgstr ""
+msgstr "O traçado da forma (%1%) contém não suportado: %2%."
 
 msgid "Face the camera"
-msgstr ""
+msgstr "Em direção à câmera"
 
 #. TRN - Preview of filename after clear local filepath.
 msgid "Unknown filename"
-msgstr ""
+msgstr "Nome de arquivo desconhecido"
 
 #, possible-boost-format
 msgid "SVG file path is \"%1%\""
-msgstr ""
+msgstr "Caminho do arquivo SVG é \"%1%\""
 
 msgid "Reload SVG file from disk."
-msgstr ""
+msgstr "Recarregar arquivo SVG do disco."
 
 msgid "Change file"
-msgstr ""
+msgstr "Mudar o arquivo"
 
 msgid "Change to another .svg file"
-msgstr ""
+msgstr "Mudar para outro arquivo .svg"
 
 msgid "Forget the file path"
-msgstr ""
+msgstr "Esquecer o caminho do arquivo"
 
 msgid ""
 "Do NOT save local path to 3MF file.\n"
 "Also disables 'reload from disk' option."
 msgstr ""
+"Não salve o caminho local para o arquivo 3MF.\n"
+"Também desativa a opção 'recarregar do disco'"
 
 #. TRN: An menu option to convert the SVG into an unmodifiable model part.
 msgid "Bake"
-msgstr ""
+msgstr "Cozinhar"
 
 #. TRN: Tooltip for the menu item.
 msgid "Bake into model as uneditable part"
-msgstr ""
+msgstr "Cozido em um modelo como uma parte não editável"
 
 msgid "Save as"
 msgstr "Salvar como"
 
 msgid "Save SVG file"
-msgstr ""
+msgstr "Salvar arquivo SVG"
 
 msgid "Save as '.svg' file"
-msgstr ""
+msgstr "Salvar como arquivo '.svg'"
 
 msgid "Size in emboss direction."
-msgstr ""
+msgstr "Tamanho na direção do relevo."
 
 #. TRN: The placeholder contains a number.
 #, possible-boost-format
 msgid "Scale also changes amount of curve samples (%1%)"
-msgstr ""
+msgstr "Escala também muda a quantidade de amostras da curva (%1%)"
 
 msgid "Width of SVG."
-msgstr ""
+msgstr "Largura do SVG."
 
 msgid "Height of SVG."
-msgstr ""
+msgstr "Altura do SVG."
 
 msgid "Lock/unlock the aspect ratio of the SVG."
-msgstr ""
+msgstr "Bloquear/Desbloquear a relação de tamanho do SVG."
 
 msgid "Reset scale"
 msgstr "Restabelecer escala"
 
 msgid "Resize"
-msgstr ""
+msgstr "Mudar tamanho"
 
 msgid "Distance of the center of the SVG to the model surface."
-msgstr ""
+msgstr "Distância do centro do SVG à superfície do modelo."
 
 msgid "Reset distance"
-msgstr ""
+msgstr "Restabelecer a distância"
 
 msgid "Reset rotation"
 msgstr "Restabelecer rotação"
 
 msgid "Lock/unlock rotation angle when dragging above the surface."
-msgstr ""
+msgstr "Bloquear/desbloquear o ângulo de rotação ao arrastar sobre a superfície."
 
 msgid "Mirror vertically"
 msgstr "Espelhar verticalmente"
@@ -1220,7 +1234,7 @@ msgstr "Espelhar horizontalmente"
 
 #. TRN: This is the name of the action that shows in undo/redo stack (changing part type from SVG to something else).
 msgid "Change SVG Type"
-msgstr ""
+msgstr "Mudar o tipo de SVG"
 
 #. TRN - Input label. Be short as possible
 msgid "Mirror"
